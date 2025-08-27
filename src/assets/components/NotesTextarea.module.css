@@ -1,0 +1,33 @@
+.textarea {
+  min-height: 180px;
+  min-width: 350px;
+  padding: 12px;
+  font-size: 16px;
+  border-style: none;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 4px;
+  resize: none;
+}
+.noteArea {
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 230px;
+  width: 365px;
+  margin: 10px;
+}
+.btnS {
+  margin-left: 195px;
+  margin-right: 5px;
+  background-color: rgb(144, 222, 144);
+  border-radius: 4px;
+}
+.btnE {
+  margin-right: 5px;
+  background-color: rgb(92, 177, 234);
+  border-radius: 4px;
+}
+.btnD {
+  background-color: rgb(241, 107, 107);
+  border-radius: 4px;
+}

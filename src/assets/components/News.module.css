@@ -1,0 +1,104 @@
+/* Container */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  height: 100vh;
+    background-image: url("../../assets/images/drew-beamer-kUHfMW8awpE-unsplash.jpg");
+    background-size: cover;  
+   background-position: center;   
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Card */
+.card {
+  width: 1600px;
+  height: 650px;
+  background: #f7f7f7;
+  border: 1px solid #323131;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Heading */
+.heading {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #2e3a46; /* neutral dark */
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #868686;
+  padding-bottom: 10px;
+}
+
+/* Scrollable list */
+.scrollBox {
+  max-height: 480px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 12px;
+}
+
+/* Minimal custom scrollbar */
+.scrollBox::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollBox::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollBox::-webkit-scrollbar-thumb {
+  background: #c1c7cd;
+  border-radius: 8px;
+}
+.scrollBox::-webkit-scrollbar-thumb:hover {
+  background: #9aa0a6;
+}
+
+/* News list */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin-bottom: 15px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #fafafa;
+  border: 1px solid #e6e6e6;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.listItem:hover {
+  background: #f0f2f5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+  color: #1f3c88; /* muted blue */
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #142b61;
+}
+
+/* Date text */
+.date {
+  color: #555;
+  font-size: 14px;
+  margin-top: 6px;
+  display: inline-block;
+}

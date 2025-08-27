@@ -1,0 +1,23 @@
+.page{
+    margin-top: 68px;
+    height: 450px;
+    width: 350px;
+    border:4px solid rgb(0, 0, 0);
+    background-image: url(../images/old-newspaper-350376_1280.jpg);
+    border-radius: 15px;
+    display: flex; /* Aligns boxes horizontally */
+    gap: 10px; /* Space between boxes */
+    justify-content: center; /* Centers boxes */
+    padding: 20px;
+    flex-wrap: wrap; /* Allows wrapping if screen is small */
+    cursor: pointer;
+}
+.text{
+    font-size: 55px; /* Increase text size */
+    font-weight: bold; /* Make text bold */
+    color:rgb(229, 227, 225); /* Change text color */
+    text-transform: uppercase; /* Make all letters uppercase */
+    text-align: center;
+    margin-top: 95px;
+}
+

@@ -1,0 +1,13 @@
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.main{
+    height: 100vh;
+    background-image: url("../../assets/images/drew-beamer-kUHfMW8awpE-unsplash.jpg");
+    background-size: cover;  
+   background-position: center;   
+  background-repeat: no-repeat;  
+}

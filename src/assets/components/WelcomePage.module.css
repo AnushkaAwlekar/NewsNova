@@ -1,0 +1,27 @@
+.welcome {
+    height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url("../../assets/images/pppp.jpg");
+    background-size: cover;  /* Ensures the image covers the entire area */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents repeating */
+  }
+h1{
+    font-size: 80px;
+    color: #0d066c;
+    font-weight: bolder;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:#000000;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(246, 244, 244);
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
