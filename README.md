@@ -10,7 +10,10 @@ Additionally, **NewsNova** provides a **News Notes** feature, enabling users to 
 ##Video
 
 
-https://github.com/user-attachments/assets/7b3e7cae-f619-4896-8493-5b99abd301b2
+
+
+https://github.com/user-attachments/assets/a120c7ce-1d3e-4b86-b72d-d93b2d065c24
+
 
 
 ---
